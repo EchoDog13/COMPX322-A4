@@ -1,15 +1,20 @@
 import React from 'react';
 
-function ProjectListItem({ onClick }) {
+function ProjectListItem({ title, startDate, endDate, onDelete }) {
   return (
-<div>
-    <p className='projectTitle'></p>
-    <p className='projectStartDate'></p>
-    <p className='projectEndDate'></p>
-
-    <button className='projectDelete'></button>
-
-</div>
+    <tr>
+      <td>{title}</td>
+      <td>{startDate}</td>
+      <td>{endDate}</td>
+      <td>
+        <button 
+          className='projectDeleteButton' 
+          onClick={onDelete}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
   );
 }
 

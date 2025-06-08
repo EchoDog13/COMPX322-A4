@@ -1,0 +1,60 @@
+/* NewProjectForm.css */
+
+ form{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 50px;
+    margin-bottom: 25px;
+}
+
+ h2 {
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    color: #222;
+    text-align: center;
+}
+
+ label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+ input,
+ textarea,
+ select {
+    width: 97%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+
+ input:focus,
+ textarea:focus,
+ select:focus {
+    border-color: #0078d4;
+    outline: none;
+}
+
+ button {
+    width: 100%;
+    padding: 12px;
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ button:hover {
+    background: #005fa3;
+}

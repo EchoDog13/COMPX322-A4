@@ -1,4 +1,8 @@
 import React from 'react';
+import './NewProjectButton.css';
+
+
+// Modular component for the New Project button
 
 function NewProjectButton({ onClick }) {
   return (
@@ -7,7 +11,5 @@ function NewProjectButton({ onClick }) {
     </button>
   );
 }
-// NewProjectButton.propTypes = {
-//   onClick: PropTypes.func.isRequired,
-// };
+
 export default NewProjectButton;

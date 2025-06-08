@@ -1,0 +1,13 @@
+
+.projectDeleteButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.projectDeleteButton:hover {
+  background-color: #ff1a1a;
+}
